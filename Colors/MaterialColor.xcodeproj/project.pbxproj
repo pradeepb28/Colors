@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,18 +12,18 @@
 		0BF6518C1C8D0023005AEB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF6518A1C8D0023005AEB3A /* Main.storyboard */; };
 		0BF6518E1C8D0023005AEB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF6518D1C8D0023005AEB3A /* Assets.xcassets */; };
 		0BF651911C8D0023005AEB3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF6518F1C8D0023005AEB3A /* LaunchScreen.storyboard */; };
-		0BF651991C8D0DB7005AEB3A /* UIColor+MaterialColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF651981C8D0DB7005AEB3A /* UIColor+MaterialColor.swift */; };
+		0BF651991C8D0DB7005AEB3A /* MaterialColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF651981C8D0DB7005AEB3A /* MaterialColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BF651831C8D0023005AEB3A /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF651831C8D0023005AEB3A /* MaterialColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF651861C8D0023005AEB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BF651881C8D0023005AEB3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BF6518B1C8D0023005AEB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BF6518D1C8D0023005AEB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF651901C8D0023005AEB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BF651921C8D0023005AEB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BF651981C8D0DB7005AEB3A /* UIColor+MaterialColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+MaterialColor.swift"; sourceTree = "<group>"; };
+		0BF651981C8D0DB7005AEB3A /* MaterialColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		0BF6517A1C8D0023005AEB3A = {
 			isa = PBXGroup;
 			children = (
-				0BF651851C8D0023005AEB3A /* Colors */,
+				0BF651851C8D0023005AEB3A /* MaterialColor */,
 				0BF651841C8D0023005AEB3A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		0BF651841C8D0023005AEB3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BF651831C8D0023005AEB3A /* Colors.app */,
+				0BF651831C8D0023005AEB3A /* MaterialColor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BF651851C8D0023005AEB3A /* Colors */ = {
+		0BF651851C8D0023005AEB3A /* MaterialColor */ = {
 			isa = PBXGroup;
 			children = (
 				0BF651861C8D0023005AEB3A /* AppDelegate.swift */,
@@ -62,17 +62,17 @@
 				0BF6518D1C8D0023005AEB3A /* Assets.xcassets */,
 				0BF6518F1C8D0023005AEB3A /* LaunchScreen.storyboard */,
 				0BF651921C8D0023005AEB3A /* Info.plist */,
-				0BF651981C8D0DB7005AEB3A /* UIColor+MaterialColor.swift */,
+				0BF651981C8D0DB7005AEB3A /* MaterialColor.swift */,
 			);
-			path = Colors;
+			path = MaterialColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BF651821C8D0023005AEB3A /* Colors */ = {
+		0BF651821C8D0023005AEB3A /* MaterialColor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BF651951C8D0023005AEB3A /* Build configuration list for PBXNativeTarget "Colors" */;
+			buildConfigurationList = 0BF651951C8D0023005AEB3A /* Build configuration list for PBXNativeTarget "MaterialColor" */;
 			buildPhases = (
 				0BF6517F1C8D0023005AEB3A /* Sources */,
 				0BF651801C8D0023005AEB3A /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Colors;
+			name = MaterialColor;
 			productName = Colors;
-			productReference = 0BF651831C8D0023005AEB3A /* Colors.app */;
+			productReference = 0BF651831C8D0023005AEB3A /* MaterialColor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,8 +102,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BF6517E1C8D0023005AEB3A /* Build configuration list for PBXProject "Colors" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 0BF6517E1C8D0023005AEB3A /* Build configuration list for PBXProject "MaterialColor" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BF651821C8D0023005AEB3A /* Colors */,
+				0BF651821C8D0023005AEB3A /* MaterialColor */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BF651991C8D0DB7005AEB3A /* UIColor+MaterialColor.swift in Sources */,
+				0BF651991C8D0DB7005AEB3A /* MaterialColor.swift in Sources */,
 				0BF651891C8D0023005AEB3A /* ViewController.swift in Sources */,
 				0BF651871C8D0023005AEB3A /* AppDelegate.swift in Sources */,
 			);
@@ -251,10 +251,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Colors/Info.plist;
+				INFOPLIST_FILE = MaterialColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.burugu.Colors;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burugu.MaterialColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -264,10 +267,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Colors/Info.plist;
+				INFOPLIST_FILE = MaterialColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.burugu.Colors;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burugu.MaterialColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -276,7 +282,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BF6517E1C8D0023005AEB3A /* Build configuration list for PBXProject "Colors" */ = {
+		0BF6517E1C8D0023005AEB3A /* Build configuration list for PBXProject "MaterialColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BF651931C8D0023005AEB3A /* Debug */,
@@ -285,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BF651951C8D0023005AEB3A /* Build configuration list for PBXNativeTarget "Colors" */ = {
+		0BF651951C8D0023005AEB3A /* Build configuration list for PBXNativeTarget "MaterialColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BF651961C8D0023005AEB3A /* Debug */,

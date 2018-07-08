@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0BF651821C8D0023005AEB3A"
-               BuildableName = "Colors.app"
-               BlueprintName = "Colors"
-               ReferencedContainer = "container:Colors.xcodeproj">
+               BuildableName = "MaterialColor.app"
+               BlueprintName = "MaterialColor"
+               ReferencedContainer = "container:MaterialColor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BF651821C8D0023005AEB3A"
-            BuildableName = "Colors.app"
-            BlueprintName = "Colors"
-            ReferencedContainer = "container:Colors.xcodeproj">
+            BuildableName = "MaterialColor.app"
+            BlueprintName = "MaterialColor"
+            ReferencedContainer = "container:MaterialColor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BF651821C8D0023005AEB3A"
-            BuildableName = "Colors.app"
-            BlueprintName = "Colors"
-            ReferencedContainer = "container:Colors.xcodeproj">
+            BuildableName = "MaterialColor.app"
+            BlueprintName = "MaterialColor"
+            ReferencedContainer = "container:MaterialColor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BF651821C8D0023005AEB3A"
-            BuildableName = "Colors.app"
-            BlueprintName = "Colors"
-            ReferencedContainer = "container:Colors.xcodeproj">
+            BuildableName = "MaterialColor.app"
+            BlueprintName = "MaterialColor"
+            ReferencedContainer = "container:MaterialColor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
