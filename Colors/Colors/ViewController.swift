@@ -17,10 +17,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
        // self.colorView.backgroundColor = UIColor.materialRedColor()
-        self.colorView.backgroundColor = UIColor.materialPinkColor()
+        self.colorView.backgroundColor = MaterialColor.pink()
         
         self.cView.backgroundColor =
-             UIColor.materialRedColor()
+             MaterialColor.red()
     }
 
     override func didReceiveMemoryWarning() {
